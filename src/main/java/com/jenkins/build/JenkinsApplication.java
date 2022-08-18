@@ -20,5 +20,6 @@ public class JenkinsApplication {
 		logger.info("Application Executed");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
+	//jenkins build
 
 }
