@@ -18,6 +18,7 @@ public class JenkinsApplication {
     }
 	public static void main(String[] args) {
 		logger.info("Application Executed");
+		logger.info("Application jenkins loading");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
 	//jenkins build
